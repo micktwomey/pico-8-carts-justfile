@@ -37,6 +37,7 @@ Technique from [remote justfiles](https://just.systems/man/en/remote-justfiles.h
 1. Run `just fetch` to fetch the justfile (only need to do this once or to update)
 2. Run `just import`
 3. Use `git add` and `git commit` as normal to commit them
+   1. Tip: if there are carts you want to ignore add `carts/cartname.p8` to the [.gitignore](.gitignore) file.
 
 Note: the `demos` folder is git ignored as this is usually installed using `install_demos` inside PICO-8
 
