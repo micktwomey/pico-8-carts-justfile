@@ -18,6 +18,10 @@ Keeping hold of PICO-8 source code using [just](https://just.systems/).
 ```sh
 import? 'pico-8-carts.just'
 
+help:
+  just --list
+
+# Fetch pico-8-carts.just
 fetch:
   curl https://raw.githubusercontent.com/micktwomey/pico-8-carts-justfile/refs/heads/main/justfile > pico-8-carts.just
 ```

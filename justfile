@@ -11,9 +11,6 @@ carts_folder := if os() == "macos" {
   windows_carts_folder
 }
 
-default:
-  just --list
-
 # Open the carts folder in Visual Studio Code
 vscode:
   code "{{carts_folder}}"
